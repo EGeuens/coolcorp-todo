@@ -1,0 +1,28 @@
+{
+  "name": "chat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt test",
+    "start": "node index.js",
+    "dev": "grunt dev-test --force",
+    "build": "grunt"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jasmine-node": "^1.14.30",
+    "grunt": "^1.0.1",
+    "grunt-concurrent": "^2.3.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-jasmine-nodejs": "^1.5.4",
+    "grunt-newer": "^1.1.0",
+    "grunt-nodemon": "^0.4.2",
+    "grunt-ts": "^6.0.0-beta.11",
+    "grunt-tslint": "^4.0.0",
+    "tslint": "^4.3.1",
+    "typescript": "^2.1.5"
+  }
+}
